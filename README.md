@@ -1,5 +1,12 @@
 # Docker, deploy de modelos e Ciência dos Dados
 
+<p align='center'>
+<img src="imgs/banner.jpg" alt="drawing" width="90%"/>
+</p>
+<p align='center'>
+<a href='https://br.freepik.com/fotos-vetores-gratis/projeto'>Projeto vetor criado por macrovector - br.freepik.com</a>
+</p>
+
 Esse repositório contém os arquivos referentes à seguinte série de postagens no Medium:
 
 <links>
