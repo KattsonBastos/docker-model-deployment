@@ -1,7 +1,7 @@
 # Docker, deploy de modelos e Ciência dos Dados
 
 <p align='center'>
-<img src="imgs/banner.jpg" alt="drawing" width="90%"/>
+<img src="imgs/banner.jpg" alt="drawing" width="60%"/>
 </p>
 <p align='center'>
 <a href='https://br.freepik.com/fotos-vetores-gratis/projeto'>Projeto vetor criado por macrovector - br.freepik.com</a>
