@@ -39,7 +39,7 @@ X_train['ap_hi'] = mm_ap_hi.fit_transform(X_train[['ap_hi']].values)
 pickle.dump( mm_ap_hi, open( '../parameters/ap_hi_scaler.pkl', 'wb') )
 
 X_train['ap_lo'] = mm_ap_lo.fit_transform(X_train[['ap_lo']].values)
-pickle.dump( mm_ap_lo, open( '../API/parameters/ap_lo_scaler.pkl', 'wb') )
+pickle.dump( mm_ap_lo, open( '../parameters/ap_lo_scaler.pkl', 'wb') )
 
 # scaling test dataset
 X_test['age'] = mm_age.transform(X_test[['age']].values)
