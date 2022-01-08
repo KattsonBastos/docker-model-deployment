@@ -1,2 +1,2 @@
-results = {'0': "Patient Without CVS", 
+results = {'0': "Patient Without CVD", 
             '1': "Patient With CVD"}
