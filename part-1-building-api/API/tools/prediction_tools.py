@@ -49,7 +49,7 @@ class PredictionTools:
             - Patient without CVD
             - Patien with CVD"""
 
-        prediction = str(self.model.predict( df.values )[0]) # predicting and converting the int result into string
+        prediction = int(self.model.predict( df.values )[0]) # predicting and converting the int result into string
 
         prediction = results[prediction] # getting the respective descrition for the prediction
 
