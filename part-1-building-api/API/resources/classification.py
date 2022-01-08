@@ -10,7 +10,7 @@ class Classification(Resource):
 
         df = tools.data_preparation(data) # preprocessing the data
 
-        prediction = tools.classification(df) # making the prediction
+        prediction = tools.predict(df) # making the prediction
 
         
         return {"result": prediction}

@@ -42,12 +42,12 @@ class PredictionTools:
         return data
 
 
-    def classification(self, df):
+    def predict(self, df):
         """Receives a dataframe and perform the prediction.
         :param df: dataframe containing data used to make the predictions
-        :returns: the prediction as an integer:
-            0 - Patient without CVD
-            1 - patien with CVD"""
+        :returns: string with description of the result:
+            - Patient without CVD
+            - Patien with CVD"""
 
         prediction = str(self.model.predict( df.values )[0]) # predicting and converting the int result into string
 
