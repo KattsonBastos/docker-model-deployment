@@ -19,6 +19,7 @@ print(df.head())
 # splitting data into train and test
 X = df.drop('cardio', axis =1)
 y = df['cardio'].values
+
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.2, random_state=42)
 
 # Data Preparation
@@ -58,4 +59,5 @@ yhat_lgbm= lgbm.predict( X_test )
 
 print(accuracy_score(y_test, yhat_lgbm))
 
-pickle.dump(lgbm, open( os.path.join('../models', "model.pkl"), "wb" )) 
+pickle.dump(lgbm, open( os.path.join('../models', "model.pkl"), "wb" ))
+

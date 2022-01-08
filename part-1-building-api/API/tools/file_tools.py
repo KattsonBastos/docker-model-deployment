@@ -10,3 +10,5 @@ def load_pickle(file_pkl):
         object = pickle.load(open_file)
         
     return object
+
+    
